@@ -1,0 +1,767 @@
+/* General styles for the entire document */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Topbar styles */
+.topbar {
+  background-color: #333;
+  color: #5eeaef;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Logo styles */
+.logo img {
+  height: 100px;
+  border-radius: 50%;
+  transition: height 0.3s ease; /* Adding transition for smooth effect */
+}
+
+.logo img:hover {
+  height: 200px;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fffafa;
+  text-decoration: none;
+}
+
+/* Image box and dropdown styles */
+.imgbox {
+  background-image: url('img/bg.webp');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+button {
+  padding: 10px 20px;
+  background-color: darkorange;
+  border: none;
+  border-radius: 5px;
+  color: #333;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Adding transition for smooth effect */
+}
+
+button:hover {
+  background-color: orange; /* Changing background color on hover */
+}
+
+.dropdown {
+  margin-top: 20px;
+}
+
+.dropdown select {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #f3f0f0;
+  opacity: 1;
+  position: relative;
+  z-index: 1;
+}
+
+.dropdown select option {
+  background-color: white;
+  color: #333;
+}
+
+.dropdown select::-ms-expand {
+  display: none;
+}
+
+.dropdown select:after {
+  content: '\25BC'; /* down arrow */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Gallery section styles */
+.gallery {
+  background-image: url('images/abc.jpg');
+  padding: 50px 0;
+  text-align: center;
+}
+
+.gallery h2 {
+  margin-bottom: 30px;
+}
+
+.gallery-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery-images img {
+  width: 300px;
+  height: 200px;
+}
+
+/* About, Contact, and Registration section styles can be added similarly */
+
+/* Additional styles for car-related sections */
+#sports, #luxury, #F1 {
+  background-color: #f3eeee;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#sports h2, #luxury h2, #F1 h2 {
+  margin-bottom: 30px;
+}body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.topbar {
+  background-color: #333;
+  color: #5eeaef;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+  'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.colorchange{
+  margin-top: 30px;
+}
+
+.colorchange :hover{
+  color: red;
+  background-color: blue;
+}
+
+.logo img{
+  height: 100px;
+  border-radius: 50%;
+}
+
+.logo img:hover{
+  height: 200px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fffafa;
+  text-decoration: none;
+}
+
+.imgbox{
+  background-image: url('img/bg.webp');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.content {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.wel h2{
+
+  color: #000000;
+}
+.wel h2:hover{
+  background-color: #170c5a;
+  color: #f7f8f9;
+}
+
+button {
+  padding: 10px 20px;
+  background-color:darkorange;
+  border: none;
+  border-radius: 5px;
+  color: #333;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.dropdown {
+  margin-top: 20px;
+}
+
+.dropdown select {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #f3f0f0;
+  opacity: 1;
+  position: relative;
+  z-index: 1;
+}
+
+.dropdown select option {
+  background-color: white;
+  color: #333;
+}
+
+.dropdown select::-ms-expand {
+  display: none;
+}
+
+.dropdown select:after {
+
+  content: '\25BC'; /* down arrow */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+
+.gallery {
+  background-image: url('images/abc.jpg');
+  padding: 50px 0;
+  text-align: center;
+}
+
+.gallery h2 {
+  margin-bottom: 30px;
+}
+
+.gallery-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery-images img{
+  
+  width: 300px;
+  height: 200px;
+}
+
+.about{
+  background-color: #f7f8f9;
+
+}
+
+.aboutflex{
+  display: flex;
+}
+
+.aboutflex h5{
+  margin-left: 10px;
+}
+.aboutflex h6{
+margin-top: 50px;
+
+}
+.contact{
+ 
+  color:white;
+}
+
+.container
+{
+  height: 100%;
+  width: 100%;
+}
+
+.mbox{
+  width: 100%;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  padding: 2% 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box1{
+       height: 80%;
+       width: 30%;
+     
+      
+
+}
+.box1 img{
+  height: 100%;
+}
+
+
+.box2{
+  height: 80%;
+  width: 55%;
+ margin-right: 10%;
+margin-left: 5%;
+}
+
+.box2 h1{
+  margin-top: 50px;
+}
+
+
+.mbox2{
+  width: 100%;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  padding: 2% 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box1{
+       height: 80%;
+       width: 30%;
+     
+      
+
+}
+.box1 img{
+  height: 100%;
+}
+
+
+.box2{
+  height: 80%;
+  width: 55%;
+ margin-right: 10%;
+margin-left: 5%;
+}
+
+.box2 h1{
+  margin-top: 50px;
+}
+
+
+
+.mbox3{
+  width: 100%;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  padding: 2% 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box1{
+       height: 80%;
+       width: 30%;
+     
+      
+
+}
+.box1 img{
+  height: 100%;
+}
+
+
+.box2{
+  height: 80%;
+  width: 55%;
+ margin-right: 10%;
+margin-left: 5%;
+}
+
+.box2 h1{
+  margin-top: 50px;
+}
+
+
+.mbox4{
+  width: 100%;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  padding: 2% 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box1{
+       height: 80%;
+       width: 30%;
+     
+      
+
+}
+.box1 img{
+  height: 100%;
+}
+
+
+.box2{
+  height: 80%;
+  width: 55%;
+ margin-right: 10%;
+margin-left: 5%;
+}
+
+.box2 h1{
+  margin-top: 50px;
+}
+
+.flatbox{
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff;
+  padding: 2% 2%;
+}
+
+
+
+ .title{
+  color: #ffffff;
+  padding: 5px;
+  background-color: #01081a;
+  display: inline;
+}
+.mbox5{
+  width: 100%;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  padding: 2% 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box1{
+       height: 80%;
+       width: 30%;
+   
+      
+
+}
+.box1 img{
+  height: 100%;
+}
+
+
+.box2{
+  height: 80%;
+  width: 55%;
+ margin-right: 10%;
+margin-left: 5%;
+}
+
+.mbox:hover{
+  background-color: #01081a;
+  color: white;
+}
+
+.mbox2:hover{
+  background-color: #01081a;
+  color: white;
+}
+
+.mbox3:hover{
+  background-color: #01081a;
+  color: white;
+}
+
+.mbox4:hover{
+  background-color: #01081a;
+  color: white;
+}
+
+.mbox5:hover{
+  background-color: #01081a;
+  color: white;
+}
+
+.btn{
+  background-color: red;
+}
+.gallery-button{
+  margin-left: 550px;
+}
+.register{
+  background-image: url('img/about.jpg');
+color: white;
+}
+.container1{
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+ 
+}
+
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.contact-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin-bottom: 5px;
+}
+
+.ok, label,
+textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#name,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit {
+  background-color: #00d21f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.about:hover{
+    background-color: #000000;
+    color: #fff;
+}
+
+#sports img, #luxury img, #F1 img {
+  max-width: 100%;/* General styles for the entire document */
+  body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+  }
+  
+  /* Topbar styles */
+  .topbar {
+      background-color: #333;
+      color: #5eeaef;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .colorchange:hover {
+      color: red;
+      background-color: blue;
+  }
+  
+  .logo img {
+      height: 100px;
+      border-radius: 50%;
+      transition: height 0.3s ease; /* Adding transition for smooth effect */
+  }
+  
+  .logo img:hover {
+      height: 200px;
+  }
+  
+  nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+  
+  nav ul li {
+      display: inline;
+      margin-right: 20px;
+  }
+  
+  nav ul li a {
+      color: #fffafa;
+      text-decoration: none;
+  }
+  
+  .imgbox {
+      background-image: url('img/bg.webp');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+  }
+  
+  .button-wrapper {
+      margin-left: 550px;
+  }
+  
+  .button-wrapper button {
+      padding: 10px 20px;
+      background-color: darkorange;
+      border: none;
+      border-radius: 5px;
+      color: #333;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease; /* Adding transition for smooth effect */
+  }
+  
+  .button-wrapper button:hover {
+      background-color: orange; /* Changing background color on hover */
+  }
+  
+  .dropdown {
+      margin-top: 20px;
+  }
+  
+  .dropdown select {
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      background-color: #000000;
+      color: #f3f0f0;
+      opacity: 1;
+      position: relative;
+      z-index: 1;
+  }
+  
+  .dropdown select option {
+      background-color: white;
+      color: #333;
+  }
+  
+  .dropdown select::-ms-expand {
+      display: none;
+  }
+  
+  .dropdown select:after {
+      content: '\25BC'; /* down arrow */
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      pointer-events: none;
+  }
+  
+  /* Gallery section styles */
+  .gallery {
+      background-image: url('img/6.webp');
+      padding: 50px 0;
+      text-align: center;
+  }
+  
+  .gallery h2 {
+      margin-bottom: 30px;
+  }
+  
+  .gallery-images {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+  
+  .gallery-images img {
+      width: 300px;
+      height: 200px;
+  }
+  
+  /* About, Contact, and Registration section styles can be added similarly */
+  
+  .about:hover {
+      background-color: #000000;
+      color: #fff;
+  }
+  
+  .mbox:hover,
+  .mbox2:hover,
+  .mbox3:hover,
+  .mbox4:hover,
+  .mbox5:hover {
+      background-color: #01081a;
+      color: white;
+  }
+  
+  height: auto;
+  margin-top: 20px;
+}
+
+#sports img:hover, #luxury img:hover, #F1 img:hover {
+  opacity: 0.8; /* Decreasing opacity on hover for image */
+}
+
+  
