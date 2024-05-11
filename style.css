@@ -45,7 +45,7 @@ nav ul li a {
 
 /* Image box and dropdown styles */
 .imgbox {
-  background-image: url('img/bg.webp');
+  background-image: url('bg.webp');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -120,7 +120,7 @@ button:hover {
 
 /* Gallery section styles */
 .gallery {
-  background-image: url('images/abc.jpg');
+  background-image: url('abc.jpg');
   padding: 50px 0;
   text-align: center;
 }
@@ -202,7 +202,7 @@ nav ul li a {
 }
 
 .imgbox{
-  background-image: url('img/bg.webp');
+  background-image: url('bg.webp');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -283,7 +283,7 @@ button {
 
 
 .gallery {
-  background-image: url('images/abc.jpg');
+  background-image: url('abc.jpg');
   padding: 50px 0;
   text-align: center;
 }
@@ -538,7 +538,7 @@ margin-left: 5%;
   margin-left: 550px;
 }
 .register{
-  background-image: url('img/about.jpg');
+  background-image: url('about.jpg');
 color: white;
 }
 .container1{
@@ -655,7 +655,7 @@ button:hover {
   }
   
   .imgbox {
-      background-image: url('img/bg.webp');
+      background-image: url('bg.webp');
       background-size: cover;
       background-position: center;
       height: 100vh;
